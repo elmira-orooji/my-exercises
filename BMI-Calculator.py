@@ -15,13 +15,13 @@ def get_bmi_result(bmi):
 
     print("your bmi is :",bmi)
 
-    if(bmi <= 18.5 and bmi <= 24.9):
+    if( 18.5 <= bmi < 25):
         print("Normal")
     
-    elif(bmi <= 25 and bmi >= 29.9):
+    elif( 25 <=  bmi < 30):
         print("Overweight")
     
-    elif(bmi <= 30 and bmi >= 24.9):
+    elif( 30 <= bmi < 35):
         print("Obese")
     
     elif(bmi < 18.5):
